@@ -7,7 +7,7 @@ public class DemoGit2 {
 		
 		String hungry="Yes";
 		
-		if(hungry=="Yes")
+		if(hungry=="Yes" || hungry=="Y" || hungry=="y")
 		{
 			System.out.println("eat Something");
 		}
@@ -15,6 +15,7 @@ public class DemoGit2 {
 		{
 			System.out.println("Dont work");
 		}
+		
 		
 
 	}
